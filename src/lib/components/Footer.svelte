@@ -33,7 +33,7 @@
 				</div>
 				<p class="text-gray-400 leading-relaxed max-w-md mb-6">
 					Una country house storica immersa nella natura siciliana, ai piedi dell'Etna. 
-					Tradizione, comfort e ospitalità autentica dal 1928.
+					Tradizione, comfort e ospitalità autentica.
 				</p>
 				<div class="flex gap-4">
 					{#each links.social as social}
@@ -85,18 +85,10 @@
 					</li>
 					<li class="flex items-start gap-3">
 						<svg class="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-						</svg>
-						<a href="mailto:info@etna1928.com" class="hover:text-primary-300 transition-colors break-all">
-							info@etna1928.com
-						</a>
-					</li>
-					<li class="flex items-start gap-3">
-						<svg class="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 						</svg>
-						<span>Sicilia, Italia</span>
+						<span>Via Chiusitti, 95016 Mascali CT</span>
 					</li>
 				</ul>
 			</div>
@@ -104,17 +96,9 @@
 		
 		<!-- Bottom Bar -->
 		<div class="pt-8 border-t border-gray-700">
-			<div class="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
+			<div class="text-center text-gray-400 text-sm">
 				<p>© {currentYear} Etna 1928 Country House — Tutti i diritti riservati</p>
-				<div class="flex items-center gap-6">
-					<a href="#" class="hover:text-primary-300 transition-colors">Privacy Policy</a>
-					<a href="#" class="hover:text-primary-300 transition-colors">Termini di Servizio</a>
-					<a href="#" class="hover:text-primary-300 transition-colors">Cookie Policy</a>
-				</div>
 			</div>
-			<p class="text-center mt-4 text-gray-500 text-xs">
-				Sviluppato con 💚 usando SvelteKit, TypeScript & Tailwind CSS
-			</p>
 		</div>
 	</div>
 </footer>

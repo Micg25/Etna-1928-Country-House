@@ -7,19 +7,13 @@
 	
 	const slides = [
 		{
-			image: withBase('img/principali/IMG_20230904_173208.jpg'),
-			title: 'Benvenuti a Etna 1928',
-			subtitle: 'Country House nel cuore della Sicilia'
+			image: withBase('img/principali/principale.jpg')
 		},
 		{
-			image: withBase('img/principali/IMG_20230904_173420.jpg'), 
-			title: 'Vivi l\'esperienza autentica',
-			subtitle: 'Comfort e tradizione siciliana'
+			image: withBase('img/principali/principale2.jpg')
 		},
 		{
-			image: withBase('img/principali/IMG_20230904_173430.jpg'),
-			title: 'Relax e natura',
-			subtitle: 'Circondati dalla bellezza dell\'Etna'
+			image: withBase('img/principali/principale3.jpg')
 		}
 	];
 	
@@ -55,7 +49,7 @@
 				<!-- Background Image -->
 				<img 
 					src={slide.image} 
-					alt={slide.title}
+					alt="Etna 1928 Country House"
 					class="w-full h-full object-cover"
 				/>
 				
@@ -65,13 +59,7 @@
 				<!-- Content -->
 				<div class="absolute inset-0 flex items-center justify-center">
 					<div class="container mx-auto px-4 text-center text-white">
-						<h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-slide-up font-serif">
-							{slide.title}
-						</h1>
-						<p class="text-xl md:text-2xl lg:text-3xl mb-8 animate-slide-up animation-delay-200 font-light">
-							{slide.subtitle}
-						</p>
-						<div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up animation-delay-400">
+						<div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
 							<a href="#contatti" class="btn-primary text-lg px-8 py-4">
 								Prenota Ora
 							</a>
@@ -127,13 +115,3 @@
 		</a>
 	</div>
 </section>
-
-<style>
-	.animation-delay-200 {
-		animation-delay: 200ms;
-	}
-	
-	.animation-delay-400 {
-		animation-delay: 400ms;
-	}
-</style>
