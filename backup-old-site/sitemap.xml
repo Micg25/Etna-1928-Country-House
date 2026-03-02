@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://etna-1928-country-house.github.io/Etna-1928-Country-House/</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Immagini della homepage -->
+    <image:image>
+      <image:loc>https://etna-1928-country-house.github.io/Etna-1928-Country-House/img/principali/principale.jpg</image:loc>
+      <image:title>Etna 1928 Country House - Vista esterna</image:title>
+      <image:caption>Vista esterna della struttura immersa nella natura siciliana ai piedi dell'Etna</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://etna-1928-country-house.github.io/Etna-1928-Country-House/img/principali/principale2.jpg</image:loc>
+      <image:title>Etna 1928 Country House - Facciata principale</image:title>
+      <image:caption>Facciata principale con giardino e vista panoramica sul vulcano Etna</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://etna-1928-country-house.github.io/Etna-1928-Country-House/img/principali/principale3.jpg</image:loc>
+      <image:title>Etna 1928 Country House - Area esterna</image:title>
+      <image:caption>Area esterna con vegetazione tipica siciliana e atmosfera rilassante</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>

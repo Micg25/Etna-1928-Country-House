@@ -1,0 +1,22 @@
+# robots.txt per Etna 1928 Country House
+# Consente a tutti i crawler di indicizzare il sito
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://etna-1928-country-house.github.io/Etna-1928-Country-House/sitemap.xml
+
+# Crawler specifici
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Blocca cartelle non necessarie (se presenti)
+Disallow: /node_modules/
+Disallow: /.git/
