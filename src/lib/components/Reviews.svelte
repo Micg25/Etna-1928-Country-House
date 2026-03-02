@@ -110,11 +110,7 @@
 		</div>
 		
 		<!-- Stats -->
-		<div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto">
-			<div class="text-center p-6 bg-white rounded-xl shadow-lg hover-lift">
-				<div class="text-4xl font-bold text-primary-600 mb-2">13+</div>
-				<div class="text-gray-600">Recensioni</div>
-			</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16 max-w-2xl mx-auto">
 			<div class="text-center p-6 bg-white rounded-xl shadow-lg hover-lift">
 				<div class="text-4xl font-bold text-accent-600 mb-2">5★</div>
 				<div class="text-gray-600">Valutazione Media</div>
@@ -122,10 +118,6 @@
 			<div class="text-center p-6 bg-white rounded-xl shadow-lg hover-lift">
 				<div class="text-4xl font-bold text-primary-600 mb-2">100%</div>
 				<div class="text-gray-600">Ospiti Soddisfatti</div>
-			</div>
-			<div class="text-center p-6 bg-white rounded-xl shadow-lg hover-lift">
-				<div class="text-4xl font-bold text-accent-600 mb-2">1928</div>
-				<div class="text-gray-600">Anno di Fondazione</div>
 			</div>
 		</div>
 	</div>

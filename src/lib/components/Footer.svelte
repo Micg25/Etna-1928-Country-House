@@ -8,9 +8,7 @@
 			{ name: 'TripAdvisor', href: '#', icon: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z' }
 		],
 		quickLinks: [
-			{ name: 'Camere', href: '#camere' },
-			{ name: 'Cucina', href: '#cucina' },
-			{ name: 'Bagni', href: '#bagni' },
+			{ name: 'Home', href: '#home' },
 			{ name: 'Recensioni', href: '#recensioni' },
 			{ name: 'Contatti', href: '#contatti' }
 		]

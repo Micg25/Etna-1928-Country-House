@@ -1,33 +1,9 @@
 <script lang="ts">
 	import Header from '$lib/components/Header.svelte';
 	import Hero from '$lib/components/Hero.svelte';
-	import Rooms from '$lib/components/Rooms.svelte';
-	import GallerySection from '$lib/components/GallerySection.svelte';
 	import Reviews from '$lib/components/Reviews.svelte';
 	import Contacts from '$lib/components/Contacts.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	
-	import { withBase } from '$lib/utils';
-	
-	// Dati per Cucina
-	const kitchenImages = [
-		{ src: withBase('img/cucina/IMG_20230904_173045.jpg'), alt: 'Cucina 1' },
-		{ src: withBase('img/cucina/IMG_20230904_173050.jpg'), alt: 'Cucina 2' },
-		{ src: withBase('img/cucina/IMG_20230904_173055.jpg'), alt: 'Cucina 3' },
-		{ src: withBase('img/cucina/IMG_20230904_173059.jpg'), alt: 'Cucina 4' },
-		{ src: withBase('img/cucina/IMG_20230904_173104.jpg'), alt: 'Cucina 5' },
-		{ src: withBase('img/cucina/IMG_20230904_173109.jpg'), alt: 'Cucina 6' }
-	];
-	
-	// Dati per Bagni
-	const bathroomImages = [
-		{ src: withBase('img/bagni/IMG_20230904_172958.jpg'), alt: 'Bagno 1' },
-		{ src: withBase('img/bagni/IMG_20230904_173000.jpg'), alt: 'Bagno 2' },
-		{ src: withBase('img/bagni/IMG_20230904_173005.jpg'), alt: 'Bagno 3' },
-		{ src: withBase('img/bagni/IMG_20230904_173017.jpg'), alt: 'Bagno 4' },
-		{ src: withBase('img/bagni/IMG_20230904_173020.jpg'), alt: 'Bagno 5' },
-		{ src: withBase('img/bagni/IMG_20230904_173030.jpg'), alt: 'Bagno 6' }
-	];
 </script>
 
 <svelte:head>
@@ -75,19 +51,6 @@
 	<Header />
 	<main>
 		<Hero />
-		<Rooms />
-		<GallerySection 
-			id="cucina" 
-			title="La Nostra Cucina" 
-			subtitle="Sapori autentici della tradizione siciliana preparati con ingredienti locali"
-			images={kitchenImages}
-		/>
-		<GallerySection 
-			id="bagni" 
-			title="Bagni Moderni" 
-			subtitle="Confort e privacy con servizi igienici moderni e funzionali"
-			images={bathroomImages}
-		/>
 		<Reviews />
 		<Contacts />
 	</main>

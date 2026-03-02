@@ -13,9 +13,6 @@
 	
 	const menuItems = [
 		{ label: 'Home', href: '#home' },
-		{ label: 'Camere', href: '#camere' },
-		{ label: 'Cucina', href: '#cucina' },
-		{ label: 'Bagni', href: '#bagni' },
 		{ label: 'Recensioni', href: '#recensioni' },
 		{ label: 'Contatti', href: '#contatti' }
 	];

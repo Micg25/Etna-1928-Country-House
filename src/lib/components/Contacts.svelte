@@ -1,8 +1,8 @@
 <script lang="ts">
 	const contactInfo = {
 		phone: '+393337397919',
-		email: 'info@etna1928.com',
-		address: 'Via Etna 1928, Sicilia, Italia',
+		address: 'Via Chiusitti, 95016 Mascali CT',
+		mapsLink: 'https://maps.app.goo.gl/b6oTwttFQvsR2GiW7',
 		whatsapp: 'https://wa.me/393337397919?text=Ciao!%20Vorrei%20informazioni%20sulla%20disponibilit%C3%A0%20delle%20camere%20per%20le%20mie%20date.%20Grazie!'
 	};
 </script>
@@ -52,23 +52,6 @@
 						<p class="text-sm text-gray-600 mt-1">Risposta rapida garantita</p>
 					</div>
 				</a>
-				
-				<!-- Email -->
-				<a 
-					href="mailto:{contactInfo.email}"
-					class="card p-6 flex items-start gap-4 hover-lift group"
-				>
-					<div class="w-14 h-14 bg-gradient-to-br from-accent-500 to-accent-600 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-						<svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-						</svg>
-					</div>
-					<div>
-						<h3 class="font-semibold text-lg text-gray-800 mb-1">Email</h3>
-						<p class="text-accent-600 font-medium break-all">{contactInfo.email}</p>
-						<p class="text-sm text-gray-600 mt-1">Scrivici una mail</p>
-					</div>
-				</a>
 			</div>
 			
 			<!-- Map / Info -->
@@ -80,7 +63,17 @@
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 						</svg>
 						<h3 class="font-semibold text-2xl text-gray-800 mb-2">Dove Siamo</h3>
-						<p class="text-gray-600 leading-relaxed">{contactInfo.address}</p>
+						<a 
+							href={contactInfo.mapsLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="text-primary-600 hover:text-primary-700 font-medium leading-relaxed inline-flex items-center gap-2 transition-colors"
+						>
+							{contactInfo.address}
+							<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+							</svg>
+						</a>
 					</div>
 					
 					<div class="pt-6 border-t border-gray-200">
@@ -88,7 +81,6 @@
 						<div class="space-y-2 text-gray-600">
 							<p>📞 Telefono: 9:00 - 21:00</p>
 							<p>💬 WhatsApp: 24/7</p>
-							<p>✉️ Email: Risposta entro 24h</p>
 						</div>
 					</div>
 					

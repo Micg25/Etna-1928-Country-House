@@ -72,8 +72,8 @@
 							{slide.subtitle}
 						</p>
 						<div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up animation-delay-400">
-							<a href="#camere" class="btn-primary text-lg px-8 py-4">
-								Scopri le Camere
+							<a href="#contatti" class="btn-primary text-lg px-8 py-4">
+								Prenota Ora
 							</a>
 							<a href="#contatti" class="btn-secondary text-lg px-8 py-4">
 								Contattaci
@@ -119,7 +119,7 @@
 	
 	<!-- Scroll Indicator -->
 	<div class="absolute bottom-20 left-1/2 -translate-x-1/2 animate-float">
-		<a href="#camere" class="text-white flex flex-col items-center gap-2 hover:text-primary-200 transition-colors">
+		<a href="#recensioni" class="text-white flex flex-col items-center gap-2 hover:text-primary-200 transition-colors">
 			<span class="text-sm uppercase tracking-wider">Scroll</span>
 			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
